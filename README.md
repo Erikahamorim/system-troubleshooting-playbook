@@ -1,5 +1,3 @@
-# system-troubleshooting-playbook
-
 # System Troubleshooting Playbook
 
 This repository contains notes, playbooks and investigation strategies for diagnosing issues in distributed systems.
