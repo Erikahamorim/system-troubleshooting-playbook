@@ -83,7 +83,7 @@ Common issues include:
 
 ### POST
 
-POST requests are usually responsible for creating new resources and depends on server-side validation.
+POST requests are usually responsible for creating new resources and depend on server-side validation.
 
 Common issues include:
 
@@ -117,6 +117,12 @@ DELETE operations are usually straightforward, but can still fail due to:
 - Attempts to delete non-existent resources  
 - Constraints or dependencies preventing deletion  
 
+---
 
+## Why this matters in practice
 
-Understanding how each method behaves - and how it can fail - is essential when diagnosing issues in APIs and integrations.
+Understanding HTTP basics is essential when working with APIs and integrations.
+
+Many production issues are not caused by complex logic, but by simple problems in communication between systems.
+
+Having a clear view of how requests and responses work helps identify issues faster and avoid incorrect assumptions during investigation.
